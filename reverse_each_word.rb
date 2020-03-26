@@ -8,6 +8,6 @@ def reverse_each_word(sentence)
   # return new_sentence_string
   
   sentence_array = sentence.split(" ")
-  new_sentence_string = "#{sentence_array.collect {|word| word.reverse}.join}"
+  new_sentence_string = "#{sentence_array.collect {|word| word.reverse}.join( " " )}"
   return new_sentence_string
 end
